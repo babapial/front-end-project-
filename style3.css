@@ -1,0 +1,110 @@
+*{
+    margin :0;
+    font-family: "Poppins", sans-serif;
+ }
+ 
+ body{
+     background-color:rgb(223, 204, 204);
+ }
+ 
+ header{
+    
+    display: flex;
+    width: 90%;
+    margin: 50px auto;
+    justify-content: space-between;
+    
+ }
+ 
+ .btn{
+    background-color:rgba(7, 71, 192, 0.74);
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius:10px;
+ }
+ 
+ .btn:hover{
+    background-color:rgb(75, 75, 235);
+    cursor: pointer;
+    transition: 0.8s;
+ }
+ 
+#highlight-section{
+   
+    width: 70%;
+    margin: 50px auto;
+}
+
+#highlight-section > h2{
+    font-size:50px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom:25px;
+    text-shadow: 2px 2px 4px rgb(114, 157, 223);
+}
+
+#highlight-section > p{
+    color:rgb(100, 95, 95);
+    
+    width: 50%;
+    text-align: center;
+    margin-bottom:25px;
+    margin: 0 auto;
+}
+#buy-now-button{
+    display: flex;
+    justify-content: center;
+    margin-top:25px;
+}
+
+#cover-image-section{
+    /* border: 2px solid red; */
+    margin: 50px auto ;
+    width: 50%;
+}
+#cover-image-section img{
+    width: 100%;
+    
+}
+
+#search-section{
+    
+    width:70%;
+    margin:50px auto;
+}
+#search-container{
+    margin: 50 solid red;
+}
+
+#search-section>h2{
+    text-align: center;
+    margin-bottom: 25px;
+}
+#search_container{
+    
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 8px;
+    padding: 10;
+    background-color:rgb(229, 227, 209);
+    display: flex;
+
+}
+#search-bar{
+    width:70%;
+    
+}
+#search-bar>input[type="text"]{
+    padding: 15px;
+    border: none;
+    outline: none;
+    background-color:rgb(229, 227, 209);
+
+}
+#search-button{
+    width:30%;
+    border: 2px;;
+    display:flex;
+    justify-content:end;
+}
